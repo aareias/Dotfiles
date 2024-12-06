@@ -145,16 +145,16 @@ function Rename-PC {
   }
 }
 
-Disable-WindowsFeature "WindowsMediaPlayer" "Windows Media Player";
-Disable-WindowsFeature "Internet-Explorer-Optional-amd64" "Internet Explorer";
-Disable-WindowsFeature "Printing-XPSServices-Features" "Microsoft XPS Document Writer";
-Disable-WindowsFeature "WorkFolders-Client" "WorkFolders-Client";
-Enable-WindowsFeature "Containers-DisposableClientVM" "Windows Sandbox";
+# Disable-WindowsFeature "WindowsMediaPlayer" "Windows Media Player";
+# Disable-WindowsFeature "Internet-Explorer-Optional-amd64" "Internet Explorer";
+# Disable-WindowsFeature "Printing-XPSServices-Features" "Microsoft XPS Document Writer";
+# Disable-WindowsFeature "WorkFolders-Client" "WorkFolders-Client";
+# Enable-WindowsFeature "Containers-DisposableClientVM" "Windows Sandbox";
 
-Uninstall-AppPackage "Microsoft.Getstarted";
-Uninstall-AppPackage "Microsoft.GetHelp";
-Uninstall-AppPackage "Microsoft.WindowsFeedbackHub";
-Uninstall-AppPackage "Microsoft.MicrosoftSolitaireCollection";
+# Uninstall-AppPackage "Microsoft.Getstarted";
+# Uninstall-AppPackage "Microsoft.GetHelp";
+# Uninstall-AppPackage "Microsoft.WindowsFeedbackHub";
+# Uninstall-AppPackage "Microsoft.MicrosoftSolitaireCollection";
 
 # Set-WindowsExplorer-ShowFileExtensions;
 # Set-WindowsFileExplorer-StartFolder;
