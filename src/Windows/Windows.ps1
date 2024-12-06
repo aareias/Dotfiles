@@ -156,12 +156,12 @@ Uninstall-AppPackage "Microsoft.GetHelp";
 Uninstall-AppPackage "Microsoft.WindowsFeedbackHub";
 Uninstall-AppPackage "Microsoft.MicrosoftSolitaireCollection";
 
-Set-WindowsExplorer-ShowFileExtensions;
-Set-WindowsFileExplorer-StartFolder;
-Set-Multitasking-Configuration;
-Set-Classic-ContextMenu-Configuration;
-Set-SetAsBackground-To-Extended-ContextMenu;
-Disable-RecentlyOpenedItems-From-JumpList;
+# Set-WindowsExplorer-ShowFileExtensions;
+# Set-WindowsFileExplorer-StartFolder;
+# Set-Multitasking-Configuration;
+# # Set-Classic-ContextMenu-Configuration;
+# Set-SetAsBackground-To-Extended-ContextMenu;
+# Disable-RecentlyOpenedItems-From-JumpList;
 Set-Power-Configuration;
 Set-Custom-Regional-Format;
 #Rename-PC;
