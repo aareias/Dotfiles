@@ -1,9 +1,9 @@
 $GitHubRepositoryAuthor = "aareias";
 $GitHubRepositoryName = "Dotfiles";
 $DotfilesFolder = Join-Path -Path $HOME -ChildPath ".dotfiles";
-$DotfilesWorkFolder = Join-Path -Path $DotfilesFolder -ChildPath "${GitHubRepositoryName}-main" | Join-Path -ChildPath "src";
+$DotfilesWorkFolder = Join-Path -Path $DotfilesFolder -ChildPath "${GitHubRepositoryName}-basecone" | Join-Path -ChildPath "src";
 $DotfilesHelpersFolder = Join-Path -Path $DotfilesWorkFolder -ChildPath "Helpers";
-$DotfilesConfigFile = Join-Path -Path $DotfilesFolder -ChildPath "${GitHubRepositoryName}-main" | Join-Path -ChildPath "config.json";
+$DotfilesConfigFile = Join-Path -Path $DotfilesFolder -ChildPath "${GitHubRepositoryName}-basecone" | Join-Path -ChildPath "config.json";
 
 Write-Host "Welcome to Dotfiles for Microsoft Windows 11" -ForegroundColor "Yellow";
 Write-Host "Please don't use your device while the script is running." -ForegroundColor "Yellow";

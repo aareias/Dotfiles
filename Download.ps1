@@ -7,7 +7,7 @@ $DotfilesWorkFolder = Join-Path -Path $DotfilesFolder -ChildPath "${GitHubReposi
 $DownloadResult = $FALSE;
 
 # Request custom values
-$ComputerName = Read-Host -Prompt "Input the new computer name here";
+#$ComputerName = Read-Host -Prompt "Input the new computer name here";
 
 $GitUserName = Read-Host -Prompt "Input your Git user name here";
 
